@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>5주차 예제 6 · form 안의 button은 기본이 submit입니다</title>
+</head>
+<body>
+  <!--
+  5주차 예제 6 — form 안의 button은 기본이 submit입니다
+  -->
+  <form>
+    <button>보내기</button>              <!-- type 생략 = submit -->
+    <button type="button">계산하기</button>  <!-- 제출 안 함 -->
+  </form>
+
+  <!-- "버튼을 눌렀더니 페이지가 새로고침돼요"의 원인 1위가 이것입니다.
+       제출용이 아닌 버튼에는 반드시 type="button"을 씁니다. -->
+</body>
+</html>

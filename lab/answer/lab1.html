@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>5주차 실습 1 모범답안</title>
+</head>
+<body>
+  <!--
+  실습 1 모범답안 — 스스로 해 본 뒤에 보세요
+  -->
+  <form>
+    <h2>수강 신청</h2>
+
+    <label for="name">이름</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">이메일</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="grade">학년</label>
+    <select id="grade" name="grade">
+      <option value="1">1학년</option>
+      <option value="2">2학년</option>
+    </select>
+
+    <fieldset>
+      <legend>희망 분야</legend>
+      <label><input type="radio" name="field" value="front"> 프론트엔드</label>
+      <label><input type="radio" name="field" value="back"> 백엔드</label>
+    </fieldset>
+
+    <label for="intro">자기소개</label>
+    <textarea id="intro" name="intro" rows="4"></textarea>
+
+    <button type="submit">신청하기</button>
+  </form>
+</body>
+</html>

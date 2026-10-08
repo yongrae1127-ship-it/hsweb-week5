@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>5주차 실습 3 모범답안</title>
+</head>
+<body>
+  <!--
+  실습 3 모범답안 — 스스로 해 본 뒤에 보세요
+  -->
+  <form>
+    <fieldset>
+      <legend>수업 만족도</legend>
+      <label><input type="radio" name="sat" value="5"> 만족</label>
+      <label><input type="radio" name="sat" value="3"> 보통</label>
+      <label><input type="radio" name="sat" value="1"> 불만족</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>관심 분야 (복수 선택)</legend>
+      <label><input type="checkbox" name="front"> 프론트엔드</label>
+      <label><input type="checkbox" name="back"> 백엔드</label>
+      <label><input type="checkbox" name="design"> 디자인</label>
+    </fieldset>
+
+    <label for="op">의견</label>
+    <textarea id="op" rows="4" placeholder="자유롭게 적어 주세요"></textarea>
+
+    <button type="submit">제출</button>
+    <button type="reset">초기화</button>
+  </form>
+</body>
+</html>

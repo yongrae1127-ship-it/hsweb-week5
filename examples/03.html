@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>5주차 예제 3 · 검증도 브라우저가 해 줍니다</title>
+</head>
+<body>
+  <!--
+  5주차 예제 3 — 검증도 브라우저가 해 줍니다
+  -->
+  <input type="email" required>              <!-- 필수 + 이메일 형식 -->
+  <input type="number" min="1" max="4">      <!-- 1~4만 -->
+  <input type="text" minlength="2" maxlength="10">
+  <input type="text" pattern="[0-9]{6}" title="숫자 6자리">
+
+  <!-- 이 모든 검증에 JavaScript가 한 줄도 필요 없습니다.
+       JS 검증은 이것 위에 "더" 얹는 것이지, 이것을 "대신"하는 게 아닙니다. -->
+</body>
+</html>

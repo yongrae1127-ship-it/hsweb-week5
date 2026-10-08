@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>5주차 예제 2 · label을 쓰는 두 가지 방법</title>
+</head>
+<body>
+  <!--
+  5주차 예제 2 — label을 쓰는 두 가지 방법
+  -->
+  <!-- 방법 1: for와 id로 연결 (권장 — 배치가 자유롭다) -->
+  <label for="agree">약관에 동의합니다</label>
+  <input type="checkbox" id="agree">
+
+  <!-- 방법 2: label로 감싸기 (for/id 없이도 연결된다) -->
+  <label>
+    <input type="checkbox"> 약관에 동의합니다
+  </label>
+</body>
+</html>
